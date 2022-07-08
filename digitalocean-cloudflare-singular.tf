@@ -15,7 +15,6 @@ provider "digitalocean" {
 }
 provider "cloudflare" {
   api_token = ""
-  # Configuration options
 }
 
 resource "digitalocean_droplet" "musicdroplet" {
